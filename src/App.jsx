@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Header from '@/components/Header';
@@ -12,25 +11,32 @@ import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import { Toaster } from '@/components/ui/toaster';
 
+// ✅ Import local (profissional / funciona no build)
+import bannerAsprenne from './banner-asprenne.png';
+
 function App() {
   return (
     <>
       <Helmet>
         <title>ASPRENNE - Associação dos Servidores Públicos das Regiões Norte e Nordeste</title>
-        <meta name="description" content="A ASPRENNE atua na defesa dos interesses e direitos dos servidores públicos das regiões Norte e Nordeste, promovendo valorização profissional, benefícios exclusivos e representação ativa." />
+        <meta
+          name="description"
+          content="A ASPRENNE atua na defesa dos interesses e direitos dos servidores públicos das regiões Norte e Nordeste, promovendo valorização profissional, benefícios exclusivos e representação ativa."
+        />
       </Helmet>
-      <div className="min-h-screen flex flex-col bg-white">
-        {/* Main Hero Banner Image Section */}
-        <div className="w-full bg-white">
-          <img 
-            src="https://horizons-cdn.hostinger.com/1f8f9a5a-76d7-4fc3-b3b9-4d248982fcdd/e2316a412f9a2d6445d5b3f4abd8d497.png" 
-            alt="ASPRENNE - Associação de Servidores Públicos das Regiões Norte e Nordeste - Equipe unida"
-            className="w-full h-auto object-cover max-h-[800px] block"
-          />
-        </div>
 
+      <div className="min-h-screen flex flex-col bg-white">
+        {/* ✅ HEADER FIRST (profissional) */}
         <Header />
-        
+{/* Banner principal FULL WIDTH */}
+<div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
+  <img
+    src={bannerAsprenne}
+    alt="ASPRENNE - Associação dos Servidores Públicos das Regiões Norte e Nordeste"
+    className="w-full h-[300px] sm:h-[420px] md:h-[560px] object-cover"
+  />
+</div>
+
         <main className="flex-1">
           <div id="inicio">
             <Hero />
@@ -54,6 +60,7 @@ function App() {
             <ContactSection />
           </div>
         </main>
+
         <Footer />
         <Toaster />
       </div>
