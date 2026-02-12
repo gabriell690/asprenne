@@ -38,25 +38,7 @@ export default function NewsSection() {
         ],
       },
 
-      // As demais podem ficar como estavam (sem content -> toast)
-      {
-        id: "convenio-medico",
-        category: "Benefícios",
-        date: "10 Dez 2025",
-        title: "Novo convênio médico disponível para associados do Norte",
-        excerpt:
-          "Expandimos nossa rede de parceiros de saúde. Agora contamos com um novo plano com cobertura regional...",
-        image: DEFAULT_NEWS_IMAGE,
-      },
-      {
-        id: "assembleia",
-        category: "Eventos",
-        date: "05 Dez 2025",
-        title: "Assembleia Geral Extraordinária: Participe das decisões",
-        excerpt:
-          "Convocamos todos os associados para a votação do novo estatuto e definição das pautas prioritárias para 2026...",
-        image: DEFAULT_NEWS_IMAGE,
-      },
+      // As demais podem ficar como estavam (sem content -> toast,
     ],
     []
   );

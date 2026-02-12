@@ -17,10 +17,6 @@ const DiarioOficialSection = () => {
   };
 
   const publications = [
-    { id: 'DOE-2025-145', date: '14/12/2025', description: 'Resolução nº 45/2025 - Aprova novas tabelas de vencimentos', type: 'Resolução' },
-    { id: 'DOE-2025-144', date: '12/12/2025', description: 'Portaria nº 122/2025 - Nomeação da comissão eleitoral', type: 'Portaria' },
-    { id: 'DOE-2025-143', date: '10/12/2025', description: 'Edital de Convocação - Assembleia Geral Extraordinária', type: 'Edital' },
-    { id: 'DOE-2025-142', date: '08/12/2025', description: 'Ata da Reunião Ordinária do Conselho Fiscal', type: 'Ata' },
   ];
 
   return (
