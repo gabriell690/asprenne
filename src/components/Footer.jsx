@@ -117,7 +117,7 @@ const Footer = () => {
                 className="flex items-start gap-2 text-sm text-gray-300 hover:text-[#fbbf24] transition-colors"
               >
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>(00) 0000-0000</span>
+                <span>(83) 8886-4953</span>
               </a>
               <a
                 href="mailto:contato@asprenne.org.br"
@@ -129,7 +129,7 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-2 text-sm text-gray-300">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>Regiões Norte e Nordeste do Brasil</span>
+                <span>R. Afonso Campos, 152 - Subsolo - Sala 11 - Centro, Campina Grande</span>
               </div>
             </div>
           </div>

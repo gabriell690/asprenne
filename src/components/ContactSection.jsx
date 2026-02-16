@@ -45,7 +45,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-[#1e3a5f]">Sede Regional</h3>
-                    <p className="text-gray-600 text-sm">Av. Governador Agamenon Magalhães, 1234<br />Recife - PE, CEP: 50000-000</p>
+                    <p className="text-gray-600 text-sm">R. Afonso Campos, 152 - Subsolo - Sala 11 - Centro, <br />Campina Grande - PB, CEP:  58400-235</p>
                   </div>
                 </div>
 
@@ -55,7 +55,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-[#1e3a5f]">Telefones</h3>
-                    <p className="text-gray-600 text-sm">(81) 3456-7890 / (81) 98888-8888</p>
+                    <p className="text-gray-600 text-sm">(83) 8886-4953 / (83) 8886-4953</p>
                   </div>
                 </div>
 

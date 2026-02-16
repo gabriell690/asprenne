@@ -6,6 +6,9 @@ import { useToast } from "@/components/ui/use-toast";
 
 // ✅ Import da imagem da notícia (garanta que esse caminho exista)
 import asprenneIpsemImg from "../assets/news/asprenne-ipsem.jpg";
+import prefcampImg from "../assets/news/prefcamp.jpg";
+import pdcImg from "../assets/news/pdc.jpg";
+import sesumaImg from "../assets/news/sesuma.jpg";
 
 // Fallback caso alguma notícia não tenha imagem
 const DEFAULT_NEWS_IMAGE =
@@ -22,7 +25,7 @@ export default function NewsSection() {
       {
         id: "asprenne-ipsem",
         category: "Eventos",
-        date: "03 Dez 2025",
+        date: "03 de Dezembro de 2025",
         title: "Diretoria da ASPRENNE foi recebida pelo presidente do IPSEM",
         excerpt:
           "Encontro no IPSEM reuniu diretoria do instituto e representantes da ASPRENNE para tratar de pautas como reajuste, quinquênios, gratificações e participação das entidades.",
@@ -37,6 +40,59 @@ export default function NewsSection() {
           "A diretoria da ASPRENNE avaliou positivamente o encontro e reforçou a importância do diálogo institucional permanente para avançar nas demandas dos servidores."
         ],
       },
+       {
+        id: "prefcamp",
+        category: "Eventos",
+        date: "12 de Fevereiro de 2026 ",
+        title: "Prefeitura de Campina Grande decreta ponto facultativo no Carnaval 2026",
+        excerpt:
+          "De acordo com o decreto, não haverá expediente na segunda-feira (16), terça-feira (feriado nacional) e quarta-feira (18 de fevereiro)",
+        image: prefcampImg,
+        image_alt:
+          "carnaval em campina grande, prefeitura de campina grande, ponto facultativo carnaval",
+        content: [
+          "A Prefeitura de Campina Grande decretou ponto facultativo nas repartições públicas municipais durante o período do Carnaval 2026. O decreto, assinado pelo prefeito Bruno Cunha Lima, deverá ser publicado numa das próximas edições do Semanário Oficial do Município.",
+          "De acordo com o decreto, não haverá expediente na segunda-feira (16), terça-feira (feriado nacional) e quarta-feira (18 de fevereiro), em virtude das festividades carnavalescas e da Quarta-feira de Cinzas.",
+          "O retorno das atividades administrativas ocorrerá na quinta-feira (19), com funcionamento normal dos órgãos da administração direta e indireta do município.",
+          "A medida segue o modelo adotado em anos anteriores, garantindo a suspensão temporária das atividades administrativas durante o período carnavalesco, assegurando aos servidores municipais uma pausa prolongada.",
+          
+        ],
+      },
+       {
+        id: "pdc",
+        category: "Eventos",
+        date: "12 de Fevereiro de 2026 ",
+        title: "Parques de Campina Grande funcionarão em horário especial neste feriadão de Carnaval",
+        excerpt:
+          "Parques de Campina Grande funcionarão em horário especial neste feriadão de Carnaval",
+        image: pdcImg,
+        image_alt:
+          "parque da criança em campina grande, parque do povo em campina grande, horário especial carnaval",
+        content: [
+          "A Prefeitura de Campina Grande, por meio da Secretaria de Esporte, Juventude e Lazer (Sejel), informa à população e aos desportistas em geral que neste período de Carnaval os parques da cidade funcionarão nos mesmos horários praticados aos finais de semana.",
+          "Com isso, estes espaços funcionarão no período de 5h até às 18h. A medida vale para o funcionamento do Parque da Liberdade, Parque da Criança e para a Vila Olímpica Plínio Lemos.",
+          "Os horários são os mesmos praticados aos finais de semana e nos demais feriados, ou seja, já são de conhecimento dos frequentadores dos parques da cidade administrados pela Sejel.",
+          
+        ],
+      },
+       {
+        id: "sesuma",
+        category: "Eventos",
+        date: "12 de Fevereiro de 2026 ",
+        title: "Coleta de lixo será normal durante o Carnaval em Campina Grande e funcionamento das Feiras",
+        excerpt:
+          "A coleta domiciliar de resíduos sólidos não sofrerá nenhuma alteração em Campina Grande durante o período de carnaval.",
+        image: sesumaImg,
+        image_alt:
+          "coleta de lixo em campina grande, sesuma campina grande, funcionamento feiras campina grande carnaval",
+        content: [
+          "A Prefeitura de Campina Grande, através da Secretaria de Serviços Urbanos e Meio Ambiente (SESUMA), informa que a coleta domiciliar de resíduos sólidos não sofrerá nenhuma alteração em Campina Grande durante o período de carnaval.",
+          "As equipes de coletores seguirão o cronograma habitual estabelecido pela empresa responsável pelo serviço na cidade. Todos os demais serviços serão mantidos, sem alteração.",
+          "O secretário da Sesuma, Dorgival Vilar, orienta que a população coloque o lixo na frentes das suas moradias apenas nos dias e horários da coleta naquela localidade. As equipes fazem a rota durante o dia e a noite, dependendo do setor já conhecido dos moradores: “Vamos trabalhar normalmente, pois a limpeza é essencial e necessária para evitar acúmulo de lixo e também que as pessoas joguem os resíduos em áreas proibidas. Esta é a orientação do prefeito Bruno Cunha Lima, que não mede esforços para que Campina Grande continue com uma coleta de excelência”, disse Dorgival.",
+          "A coleta ocorrerá três dias semanais, com parte da cidade nas segundas, quartas e sextas-feiras, e as demais, terças, quintas e sábados. A área central é atendida diariamente, com exceção do domingo, mas mesmo assim a Sesuma mantém equipes plantonistas.",
+        ],
+      },
+
 
       // As demais podem ficar como estavam (sem content -> toast,
     ],
