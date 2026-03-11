@@ -9,6 +9,9 @@ import asprenneIpsemImg from "../assets/news/asprenne-ipsem.jpg";
 import prefcampImg from "../assets/news/prefcamp.jpg";
 import pdcImg from "../assets/news/pdc.jpg";
 import sesumaImg from "../assets/news/sesuma.jpg";
+import concurso from "../assets/news/concurso.jpg";
+import ufcg from "../assets/news/ufcg.jpg";
+import proconcg from "../assets/news/proconcg.jpeg";
 
 // Fallback caso alguma notícia não tenha imagem
 const DEFAULT_NEWS_IMAGE =
@@ -90,6 +93,59 @@ export default function NewsSection() {
           "As equipes de coletores seguirão o cronograma habitual estabelecido pela empresa responsável pelo serviço na cidade. Todos os demais serviços serão mantidos, sem alteração.",
           "O secretário da Sesuma, Dorgival Vilar, orienta que a população coloque o lixo na frentes das suas moradias apenas nos dias e horários da coleta naquela localidade. As equipes fazem a rota durante o dia e a noite, dependendo do setor já conhecido dos moradores: “Vamos trabalhar normalmente, pois a limpeza é essencial e necessária para evitar acúmulo de lixo e também que as pessoas joguem os resíduos em áreas proibidas. Esta é a orientação do prefeito Bruno Cunha Lima, que não mede esforços para que Campina Grande continue com uma coleta de excelência”, disse Dorgival.",
           "A coleta ocorrerá três dias semanais, com parte da cidade nas segundas, quartas e sextas-feiras, e as demais, terças, quintas e sábados. A área central é atendida diariamente, com exceção do domingo, mas mesmo assim a Sesuma mantém equipes plantonistas.",
+        ],
+      },
+      {
+        id: "concurso",
+        category: "Eventos",
+        date: "26 de Fevereiro de 2026 ",
+        title: "Prefeitura de Campina lança edital de concurso público em abril",
+        excerpt:
+          "A Prefeitura de Campina Grande lançará, no mês de abril, o edital do novo concurso público municipal.",
+        image: concurso,
+        image_alt:
+          "A Prefeitura de Campina Grande lançará, no mês de abril, o edital do novo concurso público municipal.",
+        content: [
+          "A Prefeitura de Campina Grande lançará, no mês de abril, o edital do novo concurso público municipal. O certame já conta com empresa organizadora contratada e integra o planejamento administrativo da gestão para fortalecer o quadro efetivo de servidores.",
+          "Antes da publicação oficial, o prefeito Bruno Cunha Lima deve se reunir com secretários municipais para alinhar os últimos ajustes técnicos e definir detalhes finais do processo seletivo. A expectativa é de que as provas sejam aplicadas no segundo semestre deste ano.",
+          "A realização do concurso reforça a política de valorização do serviço público e de recomposição do quadro funcional efetivo. Em 2022, na primeira seleção promovida pela atual gestão, foram ofertadas quase mil vagas, ampliando a estrutura administrativa e garantindo maior eficiência na prestação dos serviços à população.",
+          "O novo certame também atende às orientações do Tribunal de Contas do Estado da Paraíba, especialmente no que diz respeito à redução gradual de contratos temporários. A medida é considerada estratégica para assegurar mais estabilidade, transparência e responsabilidade na administração municipal.",
+          
+        ],
+      },
+      {
+        id: "edital ufcg",
+        category: "Eventos",
+        date: "26 de Fevereiro de 2026 ",
+        title: "UFCG lança edital com 240 vagas para o Pré-Vestibular Solidário 2026",
+        excerpt:
+          "UFCG lança edital com 240 vagas para o Pré-Vestibular Solidário 2026",
+        image: ufcg,
+        image_alt:
+          "UFCG lança edital com 240 vagas para o Pré-Vestibular Solidário 2026",
+        content: [
+          "A Universidade Federal de Campina Grande (UFCG) lançou o edital do curso Pré-Vestibular Solidário (PVS) 2026, oferecendo 240 vagas para estudantes que já concluíram ou que estejam cursando o 3º ano do Ensino Médio em escolas públicas, além de bolsistas integrais da rede privada.",
+          "O projeto é promovido pela Pró-Reitoria de Extensão (Propex) e será realizado no campus sede, em Campina Grande. As inscrições tiveram início no último dia 23 e seguem até 6 de março, por meio de formulário online disponível no edital.",
+          "A seleção dos candidatos será feita por sorteio público, marcado para as 14h do dia 7 de março, no Centro de Extensão José Farias Nóbrega, no campus Campina Grande. A lista dos contemplados será divulgada no mesmo dia, no site oficial da Propex.",
+          "As matrículas ocorrerão de 9 a 13 de março, na sala do projeto Universidade Aberta à Terceira Idade (UATI), localizada no bloco BA do campus sede, nos horários das 8h30 às 11h30 e das 14h30 às 17h30.",
+          "Mais informações, incluindo o edital completo, podem ser acessadas nas páginas oficiais da Pró-Reitoria de Extensão e do Pré-Vestibular Solidário nas redes sociais.",
+        ],
+      },
+      {
+        id: "edital proconcg",
+        category: "Eventos",
+        date: "26 de Fevereiro de 2026 ",
+        title: "Procon de Campina Grande promove programação especial no Mês do Consumidor",
+        excerpt:
+          "Procon de Campina Grande promove programação especial no Mês do Consumidor",
+        image: proconcg,
+        image_alt:
+          "Procon de Campina Grande promove programação especial no Mês do Consumidor",
+        content: [
+          "A abertura das ações ocorreu durante a participação do Procon-CG na atividade “Campina para Elas”, promovida pela Coordenadoria da Mulher de Campina Grande, em parceria com diversas secretarias do município. Durante o evento, a equipe do órgão realizou atendimentos e orientações aos consumidores, reforçando a importância da informação para garantir relações de consumo mais justas.",
+          "Entre os dias 12 e 15 de março, data em que é celebrado o Dia Mundial do Consumidor, o Procon de Campina Grande estará presente no Shopping Partage. No local, a equipe do órgão realizará atendimentos básicos, tirará dúvidas da população e distribuirá material educativo sobre direitos do consumidor.",
+          "Outra novidade anunciada para o mês de março é a chegada da nova van do Procon Móvel, que permitirá ampliar o alcance dos serviços do órgão, levando atendimentos e orientações diretamente aos bairros de Campina Grande.",
+          "Segundo o coordenador do Procon-CG, Waldeny Santana, o objetivo da programação é aproximar ainda mais o órgão da população. “O Mês do Consumidor é uma oportunidade de ampliar a orientação e levar nossos serviços para mais perto das pessoas, fortalecendo a defesa dos direitos dos consumidores em Campina Grande”, destacou."
         ],
       },
 
