@@ -149,8 +149,6 @@ export default function NewsSection() {
         ],
       },
 
-
-      // As demais podem ficar como estavam (sem content -> toast,
     ],
     []
   );
