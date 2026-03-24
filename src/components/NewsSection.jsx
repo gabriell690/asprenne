@@ -13,6 +13,7 @@ import concurso from "../assets/news/concurso.jpg";
 import ufcg from "../assets/news/ufcg.jpg";
 import proconcg from "../assets/news/proconcg.jpeg";
 import procurador from "../assets/news/procurador.png";
+import aeciomelo from "../assets/news/aeciomelo.jpeg";
 
 // Fallback caso alguma notícia não tenha imagem
 const DEFAULT_NEWS_IMAGE =
@@ -26,6 +27,57 @@ export default function NewsSection() {
 
   const news = useMemo(
     () => [
+      {
+        id: "Reunião Procurador",
+        category: "Eventos",
+        date: "12 de março de 2026 ",
+        title: "AÉCIO MELO PROCURADOR GERAL DE CAMPINA GRANDE COMENTA ENCONTRO COM ASPRENNE",
+        excerpt:
+          "AÉCIO MELO PROCURADOR GERAL DE CAMPINA GRANDE COMENTA ENCONTRO COM ASPRENNE",
+        image: aeciomelo,
+        image_alt:
+          "AÉCIO MELO PROCURADOR GERAL DE CAMPINA GRANDE COMENTA ENCONTRO COM ASPRENNE",
+        content: [
+          "Para o procurador geral do Município de Campina Grande, Dr. Aécio Melo, o encontro a a diretoria da APRENNE foi muito  importante.",
+          "Na pauta do encontro a efetivação de fato e de direito de quase 1.500 servidores da prefeitura de Campina Grande, alguns com mais de 35 anos de serviços.",
+          "(Nós temos um desafio, precisamos encontrar um caminho  de solucionar a questão dos servidores que estão no quadro do município, cuja entrada antecedem a constituição federal de 1988, que estão numa regra de transição. É necessário seguir com diálogo e que seja permanente, para que a justiça seja feita)",
+          "(Lógico que isso passa necessariamente pelas Secretarias de Finanças e Administração e sobre tudo com o diálogo como prefeito Bruno Cunha Lima, que sempre tem se mantido na posição de dialogar, conversar e compreender a situação de cada servidor. Ele é muito sensível nestas questões)."
+        ],
+      },
+       {
+        id: "Reunião Procurador",
+        category: "Eventos",
+        date: "12 de março de 2026 ",
+        title: "ASPRENNE É RECEBIDA PELO PROCURADOR GERAL DE CAMPINA GRANDE",
+        excerpt:
+          "ASPRENNE É RECEBIDA PELO PROCURADOR GERAL DE CAMPINA GRANDE",
+        image: procurador,
+        image_alt:
+          "ASPRENNE É RECEBIDA PELO PROCURADOR GERAL DE CAMPINA GRANDE",
+        content: [
+          "Na sua declaração a imprensa, o presidente da ASPRENNE, Olavo Rodrigues, afirmou que o encontro com o Dr. Aécio de Souza Melo, Procurador Geral do Município de Campina Grande foi extremamente positivo.",
+          "No encontro, representando a ASPRENNE, além do presidente Olavo Rodrigues, estiveram a Assessoria  Jurídica com o  Dr. Leônidas Chaves,  Dra. Eloisa Leal Chaves, as diretoras Maria do Rosário e Iraci Sabino e o Assessor de Imprensa Kennedy Sales.",
+          "A ASPRENNE vem mantendo uma série de contatos com secretários municipais,  cujas pastas  tem uma ligação maior com questões relativas aos servidores.",
+          "O presidente da associação, adiantou que já oficiou  junto ao gabinete do prefeito Bruno Cunha Lima uma reunião para discutir a questão de todos aqueles servidores que ingressaram na Prefeitura de Campina Grande, na época dos termos constitucionais, no período de outubro de 1983 até abril de 1991, portanto, há mais de 35 anos prestando serviços ao município, mas que não são considerados estáveis pela prefeitura."
+        ],
+      },
+      {
+        id: "edital proconcg",
+        category: "Eventos",
+        date: "26 de Fevereiro de 2026 ",
+        title: "Procon de Campina Grande promove programação especial no Mês do Consumidor",
+        excerpt:
+          "Procon de Campina Grande promove programação especial no Mês do Consumidor",
+        image: proconcg,
+        image_alt:
+          "Procon de Campina Grande promove programação especial no Mês do Consumidor",
+        content: [
+          "A abertura das ações ocorreu durante a participação do Procon-CG na atividade “Campina para Elas”, promovida pela Coordenadoria da Mulher de Campina Grande, em parceria com diversas secretarias do município. Durante o evento, a equipe do órgão realizou atendimentos e orientações aos consumidores, reforçando a importância da informação para garantir relações de consumo mais justas.",
+          "Entre os dias 12 e 15 de março, data em que é celebrado o Dia Mundial do Consumidor, o Procon de Campina Grande estará presente no Shopping Partage. No local, a equipe do órgão realizará atendimentos básicos, tirará dúvidas da população e distribuirá material educativo sobre direitos do consumidor.",
+          "Outra novidade anunciada para o mês de março é a chegada da nova van do Procon Móvel, que permitirá ampliar o alcance dos serviços do órgão, levando atendimentos e orientações diretamente aos bairros de Campina Grande.",
+          "Segundo o coordenador do Procon-CG, Waldeny Santana, o objetivo da programação é aproximar ainda mais o órgão da população. “O Mês do Consumidor é uma oportunidade de ampliar a orientação e levar nossos serviços para mais perto das pessoas, fortalecendo a defesa dos direitos dos consumidores em Campina Grande”, destacou."
+        ],
+      },
       {
         id: "asprenne-ipsem",
         category: "Eventos",
@@ -130,40 +182,6 @@ export default function NewsSection() {
           "A seleção dos candidatos será feita por sorteio público, marcado para as 14h do dia 7 de março, no Centro de Extensão José Farias Nóbrega, no campus Campina Grande. A lista dos contemplados será divulgada no mesmo dia, no site oficial da Propex.",
           "As matrículas ocorrerão de 9 a 13 de março, na sala do projeto Universidade Aberta à Terceira Idade (UATI), localizada no bloco BA do campus sede, nos horários das 8h30 às 11h30 e das 14h30 às 17h30.",
           "Mais informações, incluindo o edital completo, podem ser acessadas nas páginas oficiais da Pró-Reitoria de Extensão e do Pré-Vestibular Solidário nas redes sociais.",
-        ],
-      },
-      {
-        id: "edital proconcg",
-        category: "Eventos",
-        date: "26 de Fevereiro de 2026 ",
-        title: "Procon de Campina Grande promove programação especial no Mês do Consumidor",
-        excerpt:
-          "Procon de Campina Grande promove programação especial no Mês do Consumidor",
-        image: proconcg,
-        image_alt:
-          "Procon de Campina Grande promove programação especial no Mês do Consumidor",
-        content: [
-          "A abertura das ações ocorreu durante a participação do Procon-CG na atividade “Campina para Elas”, promovida pela Coordenadoria da Mulher de Campina Grande, em parceria com diversas secretarias do município. Durante o evento, a equipe do órgão realizou atendimentos e orientações aos consumidores, reforçando a importância da informação para garantir relações de consumo mais justas.",
-          "Entre os dias 12 e 15 de março, data em que é celebrado o Dia Mundial do Consumidor, o Procon de Campina Grande estará presente no Shopping Partage. No local, a equipe do órgão realizará atendimentos básicos, tirará dúvidas da população e distribuirá material educativo sobre direitos do consumidor.",
-          "Outra novidade anunciada para o mês de março é a chegada da nova van do Procon Móvel, que permitirá ampliar o alcance dos serviços do órgão, levando atendimentos e orientações diretamente aos bairros de Campina Grande.",
-          "Segundo o coordenador do Procon-CG, Waldeny Santana, o objetivo da programação é aproximar ainda mais o órgão da população. “O Mês do Consumidor é uma oportunidade de ampliar a orientação e levar nossos serviços para mais perto das pessoas, fortalecendo a defesa dos direitos dos consumidores em Campina Grande”, destacou."
-        ],
-      },
-      {
-        id: "Reunião Procurador",
-        category: "Eventos",
-        date: "12 de março de 2026 ",
-        title: "ASPRENNE É RECEBIDA PELO PROCURADOR GERAL DE CAMPINA GRANDE",
-        excerpt:
-          "ASPRENNE É RECEBIDA PELO PROCURADOR GERAL DE CAMPINA GRANDE",
-        image: procurador,
-        image_alt:
-          "ASPRENNE É RECEBIDA PELO PROCURADOR GERAL DE CAMPINA GRANDE",
-        content: [
-          "Na sua declaração a imprensa, o presidente da ASPRENNE, Olavo Rodrigues, afirmou que o encontro com o Dr. Aécio de Souza Melo, Procurador Geral do Município de Campina Grande foi extremamente positivo.",
-          "No encontro, representando a ASPRENNE, além do presidente Olavo Rodrigues, estiveram a Assessoria  Jurídica com o  Dr. Leônidas Chaves,  Dra. Eloisa Leal Chaves, as diretoras Maria do Rosário e Iraci Sabino e o Assessor de Imprensa Kennedy Sales.",
-          "A ASPRENNE vem mantendo uma série de contatos com secretários municipais,  cujas pastas  tem uma ligação maior com questões relativas aos servidores.",
-          "O presidente da associação, adiantou que já oficiou  junto ao gabinete do prefeito Bruno Cunha Lima uma reunião para discutir a questão de todos aqueles servidores que ingressaram na Prefeitura de Campina Grande, na época dos termos constitucionais, no período de outubro de 1983 até abril de 1991, portanto, há mais de 35 anos prestando serviços ao município, mas que não são considerados estáveis pela prefeitura."
         ],
       },
 
