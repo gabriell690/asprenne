@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { User, Menu, X, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/use-toast';
+import logoAsprenne from "@/assets/news/asprennelogo.png";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -87,11 +88,8 @@ const Header = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           
           {/* LOGO ASPRENNE (REDUZIDO) */}
-          <img
-            src="https://horizons-cdn.hostinger.com/1f8f9a5a-76d7-4fc3-b3b9-4d248982fcdd/663f4324cb791b625136f47a0cfc36a4.jpg"
-            alt="ASPRENNE - Associação dos Servidores Públicos das Regiões Norte e Nordeste"
+          <img src={logoAsprenne} alt="Logo Asprenne" 
             className="h-10 sm:h-11 w-auto object-contain cursor-pointer"
-            onClick={(e) => scrollToSection(e, '#inicio')}
           />
 
           {/* Desktop Navigation */}

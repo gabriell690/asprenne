@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
+import logoAsprenne from "@/assets/news/asprennelogo.png";
 
 const Footer = () => {
   const { toast } = useToast();
@@ -48,11 +49,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Logo and Description */}
           <div className="lg:col-span-1">
-            <img 
-              src="https://horizons-cdn.hostinger.com/1f8f9a5a-76d7-4fc3-b3b9-4d248982fcdd/e4bf59ba0809a57f59626f321746dd23.png" 
-              alt="ASPRENNE Logo" 
-              className="h-16 w-auto mb-4 brightness-0 invert"
-            />
+            <img src={logoAsprenne} alt="Logo Asprenne" />
             <p className="text-sm text-gray-300 mb-4">
               Defendendo os direitos dos servidores públicos das regiões Norte e Nordeste há mais de 35 anos.
             </p>
