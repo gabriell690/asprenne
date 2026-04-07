@@ -14,6 +14,7 @@ import ufcg from "../assets/news/ufcg.jpg";
 import proconcg from "../assets/news/proconcg.jpeg";
 import procurador from "../assets/news/procurador.png";
 import aeciomelo from "../assets/news/aeciomelo.jpeg";
+import sine from "../assets/news/sine.png";
 
 // Fallback caso alguma notícia não tenha imagem
 const DEFAULT_NEWS_IMAGE =
@@ -27,6 +28,24 @@ export default function NewsSection() {
 
   const news = useMemo(
     () => [
+      {
+        id: "Campina Grande oferece 502 vagas de emprego",
+        category: "Eventos",
+        date: "06 de abril de 2026 ",
+        title: "Campina Grande oferece 502 vagas de emprego",
+        excerpt:
+          "Campina Grande oferece 502 vagas de emprego",
+        image: sine,
+        image_alt:
+          "Campina Grande oferece 502 vagas de emprego",
+        content: [
+          "Campina Grande oferece 502 vagas de emprego, nesta semana, conforme sistema de cadastro do Sine Municipal ",
+          "O Sine Municipal de Campina Grande, órgão coordenado pela Secretaria Municipal de Assistência Social (Semas), disponibilizou no seu cadastro 502 vagas de emprego oferecidas por meio de empresas parceiras para esta semana.",
+          "A oferta representa uma oportunidade importante para trabalhadores que desejam ingressar ou retornar ao mercado de trabalho.",
+          "Entre as oportunidades, destaca-se a empresa AeC, com 400 vagas disponíveis para o cargo de Operador de Telemarketing. É preciso ter Ensino Médio completo, Ensino Superior em andamento ou Ensino Superior Completo, além de fazer a inscrição pelo link disponível na Bio do Instagram do Sine Municipal ",
+          " O interessado deve procurar a opção -> vagas -> AeC (https://sou.aec.com.br/) e realizar o seu cadastro. O candidato também precisa ter disponibilidade nos turnos tarde e noite."
+        ],
+      },
       {
         id: "Reunião Procurador",
         category: "Eventos",
